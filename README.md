@@ -100,7 +100,7 @@ A hardware-software co-simulation framework that evaluates the reliability of a 
 | 1e-3       | degrades | increases | —      |
 | 1e-2       | degrades | increases | —      |
 
-The model is robust to SRAM bit errors up to BER ≈ 10⁻⁷ with zero accuracy degradation, consistent with the high SNM (287.36 mV) of the FreePDK45 6T cell.
+The model maintains stable accuracy under SRAM bit errors up to a BER of approximately $10^{-7}$, demonstrating robustness that aligns with the high static noise margin (287.36 mV) of the FreePDK45 6T cell.
 
 ---
 
